@@ -9,7 +9,7 @@ def load_data():
     data = response.read()
     str_data = data.decode()
     print(str_data)
-    with open("src/baidu.html", "w", encoding="utf-8")as f:
+    with open("file/baidu.html", "w", encoding="utf-8")as f:
         f.write(str_data)
 
 
